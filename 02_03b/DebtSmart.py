@@ -6,9 +6,9 @@ import json
 bedrock = boto3.client('bedrock-runtime')
 
 #Setting the prompt
-prompt_data = """Command: Write me a blog about coaching employees as a leader.
+prompt_data = """Command: Analyse and write a step by step guide how to save debt.
 
-Blog:
+Guide:
 """
 
 #Model specification
